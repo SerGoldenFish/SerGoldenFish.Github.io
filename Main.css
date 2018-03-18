@@ -1,0 +1,18 @@
+Body {
+    background-image: url("images/puppy.jpg");
+    padding: 30px;
+}
+
+.MainContent {
+    background-color: wheat;
+    border-radius; 10px;
+    border-style: double;
+    padding: 10px;
+    
+}
+
+.foot {
+    background: rgba(255, 212, 128, 0.9);
+    text-align: center;
+    position: bottom;
+}
