@@ -1,0 +1,43 @@
+nav ul {
+    list-style-type: none;
+    overflow: hidden; 
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+   /* display: flex; <messes with the alignment of active page element*/
+    border-radius: 16px;
+  /*  border: 1px solid Black; < creates an annoying border around active element.*/
+    
+}
+
+nav li {
+    /* flex: auto; */
+    float: left; 
+    font-family: Helvetica, Ariel, "sans-serif";
+    font-weight: bold;
+    border-right: 2px solid white;
+    
+}
+
+li:last-child{
+    
+}
+
+nav li a {
+    display: block;
+    color: White;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+li a:hover:not(active) {
+    background-color: slategrey;
+}
+
+.active {
+    background-color: #4caf50;
+    float:right;
+}
