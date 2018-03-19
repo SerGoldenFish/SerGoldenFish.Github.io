@@ -7,7 +7,7 @@ Body {
     background-color: wheat;
     border-radius; 10px;
     border-style: double;
-    padding: 10px;
+    padding: 15px;
     
 }
 
@@ -15,4 +15,25 @@ Body {
     background: rgba(255, 212, 128, 0.9);
     text-align: center;
     position: bottom;
+    border-radius: 1px;
+}
+
+#topBtn {
+   /* display: ; This works but the javascript will not unhide the button upon scrolling  */ 
+    position: fixed;
+    bottom: 20px;
+    right: 5px;
+    z-index; 99;
+    border:none;
+    outline: none;
+    background-color: rgba(255,0,0,0.9);
+    color: white;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#topBtn:hover {
+    background-color: grey;
 }
