@@ -1,6 +1,6 @@
 Body {
     background-image: url("images/puppy.jpg");
-    padding: 30px;
+    /* padding: ; may be the reason for some of my errors*/
 }
 
 .MainContent {
@@ -9,6 +9,7 @@ Body {
     border-style: double;
     padding: 15px;
     width: 80%;
+   /* float: left;  fucks up everything */
 }
 
 #Second {
@@ -44,7 +45,7 @@ Body {
 }
 
 .topBtn {
-   /* display: ; This works but the javascript will not unhide the button upon scrolling  */ 
+    display: none; /*This works but the javascript will not unhide the button upon scrolling  */ 
     position: fixed;
     bottom: 20px;
     right: 5px;
@@ -69,7 +70,7 @@ Body {
 }
 
 #Rescue {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 1.0);
     text-align: center;
     border-style: solid;
     border-radius: 10px;
