@@ -43,7 +43,7 @@ Body {
     border-radius: 1px;
 }
 
-#topBtn {
+.topBtn {
    /* display: ; This works but the javascript will not unhide the button upon scrolling  */ 
     position: fixed;
     bottom: 20px;
@@ -59,11 +59,23 @@ Body {
     font-size: 14px;
 }
 
-#topBtn:hover {
+.topBtn:hover {
     background-color: grey;
 }
 
 .FBfeed {
     float: right;
-    width: 15%;
+   
 }
+
+#Rescue {
+    background-color: white;
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb (45, 31, 6);
+    width: 205px;
+    height: 40px;
+    font-size: 30px;
+}
+
