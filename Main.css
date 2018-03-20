@@ -8,7 +8,32 @@ Body {
     border-radius; 10px;
     border-style: double;
     padding: 15px;
+    width: 80%;
+}
+
+#Second {
+    background-color: wheat;
+    width: 100%;    
+    border-style: double;
+    margin: auto;
     
+    
+}
+
+#Left {
+/*    border-style: double; */
+    width: 50%;
+    float: left;
+    border-right-style: double;
+    text-align: center;
+}
+
+#Right {
+  /* border-style: double; */
+  /* float: right; */
+   width: 50%;
+   margin-left: 50%;
+   text-align: center;
 }
 
 .foot {
@@ -36,4 +61,9 @@ Body {
 
 #topBtn:hover {
     background-color: grey;
+}
+
+.FBfeed {
+    float: right;
+    width: 15%;
 }
