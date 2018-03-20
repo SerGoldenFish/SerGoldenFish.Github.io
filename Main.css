@@ -45,7 +45,7 @@ Body {
 }
 
 .topBtn {
-    display: none; /*This works but the javascript will not unhide the button upon scrolling  */ 
+    /* display: none; This works but the javascript will not unhide the button upon scrolling  */ 
     position: fixed;
     bottom: 20px;
     right: 5px;
